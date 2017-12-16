@@ -1,0 +1,149 @@
+body{
+	font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #737171;
+    font-family: cursive;
+}
+img{
+	max-width: 100%;
+    display: block;
+}
+
+.wrapper{
+	width: 1000px;
+    margin: 0 auto;
+        background: #9cfd003b;
+}
+
+
+.header{
+	    background: #c4ff80b3;
+    overflow: hidden;
+}
+.logo{
+	width: 200px;
+    float: left;
+}
+.logo img{
+	width: 175px;
+    padding: 10px;
+}
+
+.menu{
+	    width: 800px;
+    float: left;
+}
+.menu ul{
+	margin: 0;
+    padding: 0;
+    margin-top: 65px;
+    margin-left: 100px;
+}
+.menu ul li{
+	    list-style: none;
+	    float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+    color: #736059;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 20px;
+    display: block;
+    transition: 0.5s all ease;
+}
+.menu ul li a:hover{
+	background: green;
+	color: white;
+}
+
+
+.main-part{}
+.content{
+	    background: #9cfd003b;
+}
+.content img{
+    width: 320px;
+    float: left;
+    padding: 50px;
+    padding-top: 30px;
+}
+.content h2{
+	float: left;
+    font-size: 50px;
+    color: #518615e3;
+}
+.content p{
+	    text-align: -webkit-auto;
+    padding-top: 153px;
+    color: #336100;
+}
+
+
+.features-part{
+	    width: 100%;
+	        overflow: hidden;
+}
+
+.feature{
+	    width: 25%;
+    float: left;
+    background: #ffffff00;
+    box-sizing: border-box;
+}
+.feature img{
+	width: 150px;
+    margin: 0 auto;
+        margin-top: 20px;
+}
+.feature h3{
+    font-size: 25px;
+    font-family: fantasy;
+    text-align: center;
+    color: #65614a;
+}
+.feature p{
+	text-align: -webkit-center;
+    color: #634949;
+}
+
+
+.footer{}
+.copyright{
+	  background: #8bc34a99;
+    float: left;
+    width: 400px;
+}
+.copyright p{}
+.copyright p a{}
+
+.social-link{
+	    background: blue;
+    float: left;
+    width: 600px;
+}
+.social-link ul{
+	    margin: 0;
+}
+.social-link ul li{
+	list-style: none;
+    float: left;
+}
+.social-link ul li img{
+	    max-width: 7%;
+    display: block;
+    float: left;
+}
+.social-link ul li a{
+	      text-decoration: none;
+    color: #736059;
+    text-transform: unset;
+    font-size: 18px;
+    /* background: red; */
+    padding: -5px;
+    display: block;
+    float: left;
+}
+}
+
